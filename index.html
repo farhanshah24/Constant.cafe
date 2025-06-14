@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/constant-logo.jpg" />
+    <title>Constant. - Café</title>
+  </head>
+  <body>
+    <div id="preloader" class="preloader-overlay">
+      <div class="coffee-bounce">
+          <img src="assets/constant-logo1.png" height="100px" alt="">
+      </div>
+    </div>
+    <div class="home-image">
+      <div class="navbar">
+        <div class="logo">
+          <img
+            class="logo-img"
+            src="assets/constant-logo1.png"
+            alt="Constant logo"
+          />
+          <span class="logo-text">Constant.</span>
+        </div>
+        <img
+          class="navbar-icon"
+          src="assets/navbar-icon.png"
+          alt="Menu"
+          onclick="toggleNav()"
+        />
+        <div class="sections">
+          <ul class="nav-links">
+            <li><a href="#home">À propos</a></li>
+            <li><a href="#timings">Horaires</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Galerie</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="home">
+      <div class="home-text">
+        <h1>Bienvenue chez Constant.</h1>
+        <p>
+          Un lieu où vous trouverez l'alliance parfaite entre confort et sophistication. Notre café est conçu pour être un havre de paix pour les amateurs de café et les gourmands. Que vous recherchiez un endroit chaleureux pour travailler, retrouver des amis ou simplement profiter d'un moment de tranquillité, Constant. est l'endroit idéal. Savourez notre carte soigneusement élaborée, composée de cafés artisanaux, de pâtisseries artisanales et d'une sélection de plats gastronomiques préparés à partir des meilleurs ingrédients. Nos baristas et chefs passionnés s'engagent à vous offrir qualité et confort dans chaque tasse et chaque assiette. <br />Rejoignez-nous chez Constant. et découvrez un monde où chaque gorgée et chaque bouchée sont une célébration du goût et du réconfort. Au plaisir de vous accueillir bientôt !
+        </p>
+      </div>
+      <div class="home-image-container">
+        <div class="main-image-container">
+          <div class="back-image"></div>
+          <div class="front-image"></div>
+        </div>
+      </div>
+    </div>
+    <div id="timings">
+      <h1 class="timings-title">Horaires d'ouverture</h1>
+      <div class="times">
+        <div class="weekdays">
+          <h2>du mercredi au dimanche</h2>
+          <h1>8.30 -<br />19.00</h1>
+        </div>
+        <div class="separation"></div>
+        <div class="weekends">
+          <h2>Du lundi au mardi</h2>
+          <h1>Fermé</h1>
+        </div>
+      </div>
+    </div>
+    <div id="menu">
+      <h1 class="menu-title">Menu</h1>
+      <div class="drinks">
+        <div class="items coffee">
+          <h1>Café</h1>
+          <ul>
+            <li>
+              <span class="item-name">Espresso</span><span class="dots"></span
+              ><span class="item-price">2.50</span>
+            </li>
+            <li>
+              <span class="item-name">Americano/ allongé</span
+              ><span class="dots"></span><span class="item-price">3.80</span>
+            </li>
+            <li>
+              <span class="item-name">Latte</span><span class="dots"></span
+              ><span class="item-price">4.50</span>
+            </li>
+            <li>
+              <span class="item-name">Flat White</span><span class="dots"></span
+              ><span class="item-price">4.00</span>
+            </li>
+            <li>
+              <span class="item-name">Cappuccino</span><span class="dots"></span
+              ><span class="item-price">4.00</span>
+            </li>
+            <li>
+              <span class="item-name">Café Filtre</span
+              ><span class="dots"></span><span class="item-price">3.80</span>
+            </li>
+          </ul>
+        </div>
+        <div class="items tea">
+          <h1>Thé</h1>
+          <ul>
+            <li>
+              <span class="item-name">Matcha</span><span class="dots"></span
+              ><span class="item-price">4.50</span>
+            </li>
+            <li>
+              <span class="item-name">Chai Masala</span
+              ><span class="dots"></span><span class="item-price">4.50</span>
+            </li>
+            <li>
+              <span class="item-name">Chocolat Chaud</span
+              ><span class="dots"></span><span class="item-price">6.00</span>
+            </li>
+            <li>
+              <span class="item-name">Thé/ infusions</span
+              ><span class="dots"></span><span class="item-price">4.50</span>
+            </li>
+            <li>
+              <span class="item-name">Softs</span><span class="dots"></span
+              ><span class="item-price">4.00</span>
+            </li>
+            <li>
+              <span class="item-name">Eaux</span><span class="dots"></span
+              ><span class="item-price">3.00</span>
+            </li>
+            <li>
+              <span class="item-name">Jus d'orange</span
+              ><span class="dots"></span><span class="item-price">5.00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="food">
+        <div class="items meal">
+          <h1>Salé</h1>
+          <ul>
+            <li>
+              <span class="item-name">Quiche Lorraine</span
+              ><span class="dots"></span><span class="item-price">5.00</span>
+            </li>
+            <li>
+              <span class="item-name">Croque MR</span><span class="dots"></span
+              ><span class="item-price">4.50</span>
+            </li>
+            <li>
+              <span class="item-name">Sandwichs</span><span class="dots"></span
+              ><span class="item-price">7.50</span>
+            </li>
+            <li>
+              <span class="item-name">Salade César</span
+              ><span class="dots"></span><span class="item-price">7.50</span>
+            </li>
+          </ul>
+        </div>
+        <div class="items bread">
+          <h1>Sucré</h1>
+          <ul>
+            <li>
+              <span class="item-name">Madeleine</span><span class="dots"></span
+              ><span class="item-price">1.50</span>
+            </li>
+            <li>
+              <span class="item-name">Croissant</span><span class="dots"></span
+              ><span class="item-price">2.50</span>
+            </li>
+            <li>
+              <span class="item-name">Cake citron</span
+              ><span class="dots"></span><span class="item-price">3.50</span>
+            </li>
+            <li>
+              <span class="item-name">Riz au lait</span
+              ><span class="dots"></span><span class="item-price">5.00</span>
+            </li>
+            <li>
+              <span class="item-name">Gaufres</span><span class="dots"></span
+              ><span class="item-price">5.50</span>
+            </li>
+            <li>
+              <span class="item-name">Tarte au Chocolat</span
+              ><span class="dots"></span><span class="item-price">6.50</span>
+            </li>
+            <li>
+              <span class="item-name">Tarte aux Pommes</span
+              ><span class="dots"></span><span class="item-price">5.00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="gallery">
+      <h1 class="gallery-title">Galerie</h1>
+      <div class="gallery-images">
+        <img
+          class="gallery-image"
+          src="assets/gallery1.jpg"
+          alt="Gallery Image 1"
+        />
+        <img
+          class="gallery-image"
+          src="assets/gallery2.jpg"
+          alt="Gallery Image 2"
+        />
+        <img
+          class="gallery-image"
+          src="assets/gallery3.jpg"
+          alt="Gallery Image 3"
+        />
+        <img
+          class="gallery-image"
+          src="assets/gallery4.jpg"
+          alt="Gallery Image 4"
+        />
+        <img
+          class="gallery-image"
+          src="assets/gallery5.jpg"
+          alt="Gallery Image 5"
+        />
+        <img
+          class="gallery-image"
+          src="assets/gallery6.jpg"
+          alt="Gallery Image 6"
+        />
+        <img
+          class="gallery-image"
+          src="assets/gallery7.jpg"
+          alt="Gallery Image 7"
+        />
+        <img
+          class="gallery-image"
+          src="assets/gallery8.jpg"
+          alt="Gallery Image 8"
+        />
+        <img
+          class="gallery-image"
+          src="assets/gallery9.jpg"
+          alt="Gallery Image 9"
+        />
+        <img
+          class="gallery-image"
+          src="assets/gallery10.jpg"
+          alt="Gallery Image 10"
+        />
+        <img
+          class="gallery-image"
+          src="assets/gallery11.jpg"
+          alt="Gallery Image 11"
+        />
+        <img
+          class="gallery-image"
+          src="assets/gallery12.jpg"
+          alt="Gallery Image 12"
+        />
+      </div>
+    </div>
+    <div id="contact">
+      <div class="address">
+        <img
+          class="logo-img-footer"
+          src="assets/constant-logo.png"
+          height="150px"
+          alt="Constant Logo"
+        />
+        <span
+          ><img
+            class="location-icon"
+            src="assets/location-icon.png"
+            alt="location-icon"
+          />
+          3 Rue Augereau,<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;75007 Paris,
+          France</span
+        >
+        <a
+          href="https://www.google.com/maps/place/Constant./@48.8576694,2.3000891,16.76z/data=!4m6!3m5!1s0x47e66f77f47a932b:0xfea1460ca59df57f!8m2!3d48.8577941!4d2.3018289!16s%2Fg%2F11wxgm9c5x?entry=ttu&g_ep=EgoyMDI1MDYwOC4wIKXMDSoASAFQAw%3D%3D"
+          ><br />Voir sur la carte</a
+        >
+      </div>
+      <div class="contact-us">
+        <h1>Contactez-nous</h1>
+        <p>
+          Pour toute demande de renseignements ou commentaire, n'hésitez pas à nous contacter par e-mail ou par téléphone à l'adresse suivante :
+        </p>
+        <div>
+          <img src="assets/phone-icon.png" alt="phone-icon" />
+          <a href="tel:+33634297093">+33 6 34 29 70 93</a>
+        </div>
+        <div>
+          <img src="assets/mail-icon.png" alt="mail-icon" />
+          <a href="mailto:contact@constantcafe.com">contact@constantcafe.com</a>
+        </div>
+      </div>
+      <div class="instagram">
+        <h1>Suivez-nous <br>sur Instagram</h1>
+        <p>
+          Restez informé de nos dernières offres et événements en nous suivant sur Instagram :
+        </p>
+        <div class="instagram-link">
+          <img
+            class="instagram-icon"
+            src="assets/instagram.png"
+            alt="Instagram Icon"
+          />
+          <a href="https://www.instagram.com/constant.____/">@constant.____ </a>
+        </div>
+      </div>
+      <div class="contact-us resp">
+        <h1>Contactez-nous</h1>
+        <p>
+          Pour toute demande de renseignements ou commentaire, n'hésitez pas à nous contacter par e-mail ou par téléphone à l'adresse suivante :
+        </p>
+        <div>
+          <img src="assets/phone-icon.png" alt="phone-icon" />
+          <a href="tel:+33634297093">+33 6 34 29 70 93</a>
+        </div>
+        <div>
+          <img src="assets/mail-icon.png" alt="mail-icon" />
+          <a href="mailto:contact@constantcafe.com">contact@constantcafe.com</a>
+        </div>
+        <div class="instagram-link">
+          <img
+            class="instagram-icon"
+            src="assets/instagram.png"
+            alt="Instagram Icon"
+          />
+          <a href="https://www.instagram.com/constant.____/">@constant.____ </a>
+        </div>
+      </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
